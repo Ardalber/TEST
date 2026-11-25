@@ -4,7 +4,11 @@ Dépôt de test.
 
 ## Calculette
 
-Une calculette simple en HTML, CSS et JavaScript : ouvre `index.html` dans un navigateur.
+**▶ Utiliser la calculette : https://ardalber.github.io/TEST/**
+
+Ou ouvre le fichier `OUVRIR LA CALCULETTE.html` : il lance la calculette en ligne.
+
+Une calculette simple en HTML, CSS et JavaScript (`index.html` marche aussi sans internet).
 
 - Addition, soustraction, multiplication, division, pourcentage, changement de signe.
 - Touche ⌫ pour effacer le dernier chiffre, C pour tout effacer.
