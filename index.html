@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1b1f2a">
+  <title>Calculette</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="calc" aria-label="Calculette">
+    <div class="screen">
+      <div id="history" class="history" aria-live="polite"></div>
+      <div id="display" class="display" aria-live="polite">0</div>
+    </div>
+    <div class="keys">
+      <button class="key fn" data-action="clear">C</button>
+      <button class="key fn" data-action="back" aria-label="Effacer le dernier chiffre">⌫</button>
+      <button class="key fn" data-action="percent">%</button>
+      <button class="key op" data-op="/" aria-label="Diviser">÷</button>
+
+      <button class="key" data-digit="7">7</button>
+      <button class="key" data-digit="8">8</button>
+      <button class="key" data-digit="9">9</button>
+      <button class="key op" data-op="*" aria-label="Multiplier">×</button>
+
+      <button class="key" data-digit="4">4</button>
+      <button class="key" data-digit="5">5</button>
+      <button class="key" data-digit="6">6</button>
+      <button class="key op" data-op="-" aria-label="Soustraire">−</button>
+
+      <button class="key" data-digit="1">1</button>
+      <button class="key" data-digit="2">2</button>
+      <button class="key" data-digit="3">3</button>
+      <button class="key op" data-op="+" aria-label="Additionner">+</button>
+
+      <button class="key" data-action="sign" aria-label="Changer le signe">±</button>
+      <button class="key" data-digit="0">0</button>
+      <button class="key" data-action="dot" aria-label="Virgule">,</button>
+      <button class="key eq" data-action="equals">=</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
